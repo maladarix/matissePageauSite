@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+  background-color: black;
+  color: white;
+  font-family: "Oswald", sans-serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10%;
+}
+
+.profile-picture {
+  height: 55px;
+  width: 55px;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.presentation > h1{
+  margin: 10px 0px;
+}
+
+.description {
+  width: 60%;
+}
+
+.description > p:not(.no-margin) {
+  margin-bottom: 24px;
+}
+
+#title {
+  font-size: 125px;
+  margin: 20px 0px 0px 0px;
+}
+
+#intro {
+  margin-top: 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+p {
+  margin: 0px;
+  font-size: 24px;
+}
+
+.no-margin {
+  margin-bottom: 0px;
+}

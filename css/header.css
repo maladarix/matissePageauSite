@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+}
+
+.select-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  flex-grow: 1;
+  position: relative;
+}
+
+.btn-container {
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-container > p {
+  margin: 0;
+}
+
+.btn-container:hover {
+  color: rgb(138, 138, 138);
+}

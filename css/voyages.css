@@ -1,0 +1,46 @@
+svg {
+  margin-top: 40px;
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+.lived {
+  fill: rgb(74, 41, 190);
+  cursor: pointer;
+}
+
+.good {
+  fill: rgb(102, 233, 76);
+  cursor: pointer;
+}
+
+.medium {
+  fill: rgb(241, 255, 46);
+  cursor: pointer;
+}
+
+.bad {
+  fill: rgb(218, 41, 41);
+  cursor: pointer;
+}
+
+.vert {
+  color: rgb(102, 233, 76);
+}
+
+.jaune {
+  color: rgb(241, 255, 46);
+}
+
+.rouge {
+  color: rgb(218, 41, 41);
+}
